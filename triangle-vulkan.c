@@ -42,6 +42,7 @@
 #endif
 
 #include <GLAD/vulkan.h>
+#define VK_USE_PLATFORM_MACOS_MVK
 #define GLFW_INCLUDE_NONE
 #include <GLFW/glfw3.h>
 
