@@ -3,6 +3,8 @@ project(GLFWtriangle-vulkan_Project LANGUAGES C)
 add_executable(GLFWtriangle-vulkan triangle-vulkan.c)
 target_compile_features(GLFWtriangle-vulkan PRIVATE c_std_11)
 
+set(CMAKE_BUILD_TYPE debug)
+
 # -----------------------------------------------------
 # (*) brew install glfw3 --HEAD
 # (*) LunarG SDK Vulkan
