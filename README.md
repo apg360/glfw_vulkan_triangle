@@ -1,4 +1,4 @@
-# Vulkan triangle example from GLFW
+# Vulkan triangle example taken from GLFW
 ## triangle-vulkan.c from GLFW tests folder
 
 ## How to build
